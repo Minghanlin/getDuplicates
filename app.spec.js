@@ -6,7 +6,7 @@ it('throws Error when detects non integer',function(){
 expect(getDuplicates([a, 3, d])).toThrowError(TypeError, "Not an integer");
 });
 it('accepts empty array',function(){
-expect(getDuplicates(emptyarr)).not.toBe(null);
+expect(getDuplicates([])).not.toBe(null);
 });
 it('returns empty array if no duplicates',function(){
 if(getDuplicates([1, 2, 3, 4])) {

@@ -1,3 +1,5 @@
+var getDuplicates = require('./script');
+
 describe('Checking getDuplicates function',function(){
 it('Throws error for non array',function(){
 expect(getDuplicates('nonarray')).toThrowError(TypeError, "Not an Array");

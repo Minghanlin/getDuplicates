@@ -15,3 +15,4 @@ function getDuplicates(arr) {
     sortedArr.sort();
   }
 }
+module.exports = getDuplicates;

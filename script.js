@@ -1,4 +1,4 @@
-var sortedArr = new Array([]);
+var sortedArr = new Array();
 
 function getDuplicates(arr) {
   if(arr.constructor !== Array) {
@@ -14,9 +14,4 @@ function getDuplicates(arr) {
     }
     sortedArr.sort();
   }
-}};
-
-
-getDuplicates(Arr);
-
-console.log(sortedArr);
+};

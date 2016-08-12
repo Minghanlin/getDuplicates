@@ -6,7 +6,7 @@ function getDuplicates(arr) {
   } else {
     arr.sort();
     for(i = 0; i < arr.length; i++) {
-      if(typeof arr[i] !== 'number') {
+      if(typeof arr[i] === isNaN) {
         throw new TypeError("Not an integer");
       } else if (arr[i] === arr[i - 1] && arr[i] !== arr-[1 - 2]) {
         sortedArr.push(arr[i]);
@@ -14,4 +14,4 @@ function getDuplicates(arr) {
     }
     sortedArr.sort();
   }
-};
+}
